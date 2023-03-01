@@ -1,0 +1,49 @@
+version: "3.9"
+networks:
+  dpc_network:
+    driver: bridge
+
+services:
+  dpc_backend:
+    container_name: dpc_backend
+    image: "dpc_backend:latest"
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    ports:
+      - "3001:80"
+    networks:
+      - dpc_network 
+    depends_on:
+      - dpc_database
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Docker
+
+  dpc_frontend:
+    container_name: dpc_frontend
+    image: "dpc_frontend:latest"
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    networks:
+      - dpc_network 
+    depends_on:
+      - dpc_backend
+
+  dpc_database:
+    container_name: dpc_database
+    image: "postgres:latest"
+    ports:
+      - "5432:5432"
+    restart: always
+    volumes:
+      - /db/:/var/lib/postgresql/data
+    environment:
+      POSTGRES_USER: "dpc_user"
+      POSTGRES_PASSWORD: "dpc_password"
+      POSTGRES_DB: "dpc_database"
+    networks:
+      - dpc_network
+    

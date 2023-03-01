@@ -1,0 +1,14 @@
+D:\Downloads\dpc-prova\backend.Data\obj\Debug\net6.0\backend.Data.csproj.AssemblyReference.cache
+D:\Downloads\dpc-prova\backend.Data\obj\Debug\net6.0\backend.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\Downloads\dpc-prova\backend.Data\obj\Debug\net6.0\backend.Data.AssemblyInfoInputs.cache
+D:\Downloads\dpc-prova\backend.Data\obj\Debug\net6.0\backend.Data.AssemblyInfo.cs
+D:\Downloads\dpc-prova\backend.Data\obj\Debug\net6.0\backend.Data.csproj.CoreCompileInputs.cache
+D:\Downloads\dpc-prova\backend.Data\bin\Debug\net6.0\backend.Data.deps.json
+D:\Downloads\dpc-prova\backend.Data\bin\Debug\net6.0\backend.Data.dll
+D:\Downloads\dpc-prova\backend.Data\bin\Debug\net6.0\backend.Data.pdb
+D:\Downloads\dpc-prova\backend.Data\obj\Debug\net6.0\backend.Data.dll
+D:\Downloads\dpc-prova\backend.Data\obj\Debug\net6.0\refint\backend.Data.dll
+D:\Downloads\dpc-prova\backend.Data\obj\Debug\net6.0\backend.Data.pdb
+D:\Downloads\dpc-prova\backend.Data\obj\Debug\net6.0\ref\backend.Data.dll
+D:\Downloads\dpc-prova\backend.Data\bin\Debug\net6.0\backend.Data.runtimeconfig.json
+D:\Downloads\dpc-prova\backend.Data\obj\Debug\net6.0\backend.Data.genruntimeconfig.cache
